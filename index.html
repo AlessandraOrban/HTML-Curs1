@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Brain</title>
+  </head>
+  <body>
+    <h1>Hello!</h1>
+    <h2>Buna ziua!</h2>
+    <h3>Salut!</h3>
+    <h4>Salut!</h4>
+    <h5>Salut!</h5>
+    <h6>Salut!</h6>
+
+    <!--Nav bar-->
+    <nav>
+      <a href="https://skillbrain.com/community">Comunitate</a>
+      <a href="https://skillbrain.info/centruldecariera">Centru de cariera</a>
+      <a href="https://skillbrain.info/internship">Internship</a>
+    </nav>
+
+    <p>Curs 1 - <strong>Introducere</strong> in HTML</p>
+    <p>Curs 1 - <b>Introducere</b> in HTML</p>
+    <span>Acesta este primul span</span>
+    <span>Acesta este al doilea span</span>
+
+    <a href="https://int.delsey.com/en-ro" aria-label="Mergi pe alt site">Apasa aici</a>
+    <img src="Lalele-foto-fotogestoeber.jpg" alt="Floare" />
+
+    <!-- Liste - acesta este un comentariu -->
+    <!-- ul = unordered list, li = list item-->
+    <!-- ol = ordered list, li = list item-->
+    <!-- dl = description list, dt = definition term, dd = description details-->
+
+    <h2>1. Liste neordonate</h2>
+    <ul>
+      <li>Morcovi</li>
+      <li>Ceapa</li>
+      <li>Capsuni</li>
+    </ul>
+
+    <h2>2. Liste ordonate</h2>
+    <ol type="I">
+      <li>Morcovi</li>
+      <li>Ceapa</li>
+      <li>Capsuni</li>
+    </ol>
+
+    <h2>3. Liste descrieri</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>limbaj de marcare web</dd>
+    </dl>
+  </body>
+
+  <!-- Tabele-->
+  <!-- tr = table row (rand), td = table data (celula), th = table head-->
+  <h2>Tabele</h2>
+  <table border="1" cellpadding="20">
+    <tr>
+      <th colspan="2">Nume si prenume</th>
+      <th>Salariu</th>
+    </tr>
+
+    <tr>
+      <td rowspan="2">Popescu</td>
+      <td>Ionel</td>
+      <td>3000</td>
+    </tr>
+
+    <tr>
+      <td>Simion</td>
+      <td>Vasile</td>
+      <td>4000</td>
+    </tr>
+  </table>
+
+  <!-- Formulare -->
+  <!-- required = obligatoriu -->
+  <h2>Formulare</h2>
+  <form>
+    <label for="fname">Nume</label> <br />
+    <input type="text" name="" id="fname" /> <br />
+
+    <label for="name">Prenume</label> <br />
+    <input type="text" id="name" /> <br />
+
+    <label for="email">Email</label> <br />
+    <input type="email" id="email" /> <br />
+
+    <label for="parola">Parola</label> <br />
+    <input type="password" id="parola" required /> <br />
+
+    <label for="gen">Gen</label> <br />
+    <label for="femeie">Femeie</label>
+    <input type="radio" id="femeie" name="genfsaub" />
+
+    <label for="barbat">Barbat</label>
+    <input type="radio" id="barbat" name="genfsaub" /> <br />
+
+    <label for="termeni">Accept termeni</label>
+    <input type="checkbox" id="termeni" name="checkbox-section" />
+
+    <label for="conditii">Accept conditii</label>
+    <input type="checkbox" id="conditii" name="checkbox-section" />
+  </form>
+
+  <!-- CV Exemplu -->
+  <h2>CV</h2>
+  <br />
+  <br />
+
+  <h1>Olivia Wilson</h1>
+  <h3>Student</h3>
+  <!-- partea din stanga -->
+  <div style="display: flex">
+    <div style="width: 40%">
+      <h4>Profile</h4>
+      <p>Business Administration student</p>
+    </div>
+  </div>
+  <!-- partea din dreapta -->
+  <div style="width: 60%">
+    <ul></ul>
+  </div>
+
+  <p>H<sub>2</sub>O</p>
+  <p>2<sup>4</sup></p>
+</html>
